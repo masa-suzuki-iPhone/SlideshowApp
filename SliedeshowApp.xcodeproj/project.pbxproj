@@ -14,6 +14,7 @@
 		6DCFB5302521B5870079F5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCFB52E2521B5870079F5AF /* LaunchScreen.storyboard */; };
 		6DCFB53A2522AB8A0079F5AF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFB5392522AB8A0079F5AF /* ResultViewController.swift */; };
 		6DF3B44A2526AC9B009DBA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF3B4492526AC9B009DBA1E /* Main.storyboard */; };
+		6DF3B44C2526B2E9009DBA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF3B44B2526B2E9009DBA1E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6DCFB5312521B5870079F5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DCFB5392522AB8A0079F5AF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		6DF3B4492526AC9B009DBA1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
+		6DF3B44B2526B2E9009DBA1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6DCFB5272521B5850079F5AF /* ViewController.swift */,
 				6DCFB5392522AB8A0079F5AF /* ResultViewController.swift */,
 				6DF3B4492526AC9B009DBA1E /* Main.storyboard */,
+				6DF3B44B2526B2E9009DBA1E /* Main.storyboard */,
 				6DCFB52C2521B5870079F5AF /* Assets.xcassets */,
 				6DCFB52E2521B5870079F5AF /* LaunchScreen.storyboard */,
 				6DCFB5312521B5870079F5AF /* Info.plist */,
@@ -131,6 +134,7 @@
 				6DCFB5302521B5870079F5AF /* LaunchScreen.storyboard in Resources */,
 				6DCFB52D2521B5870079F5AF /* Assets.xcassets in Resources */,
 				6DF3B44A2526AC9B009DBA1E /* Main.storyboard in Resources */,
+				6DF3B44C2526B2E9009DBA1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
