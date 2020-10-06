@@ -44,9 +44,19 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController =
             segue.destination as! ResultViewController
         resultViewController.image = imageArray[timer_sec]
+       
+           if self.timer != nil {
+               self.timer.invalidate()   // タイマーを停止する
+               self.timer = nil          // startTimer() の self.timer == nil で判断するために、 self.timer = nil としておく
+            
+            playpauseBotton.setTitle("再生", for: .normal)
+            nextBotton.isEnabled = true
+            backBotton.isEnabled = true
+            
+           }
     }
-    
-    
+        
+      
     
     @IBAction func nextBotton(_ sender: Any) {
         if timer_sec == 0 {
